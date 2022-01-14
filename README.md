@@ -1,4 +1,6 @@
 # Better Pip Uninstall
-### A shell script to uninstall python packages (installed with pip) & it's unused dependencies
-### Don't actually use this (unless you want to I guess it's kinda scuffed)
-### The [pip-autoremove](https://pypi.org/project/pip-autoremove/) package already does this very well. This is just something I made for fun.
+### Scuffed shell script to uninstall python packages (installed with pip) & their unused dependencies
+### [pip-autoremove](https://pypi.org/project/pip-autoremove/) does this much better, I just made this for fun
+
+## Running tests
+### Run the tests (`/test/run_test.sh`) in a python venv to avoid important packages from being removed (if it fails)
